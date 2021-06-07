@@ -11,13 +11,13 @@ Write a function named raisedToTheThird that takes in an array of numbers and re
 const raisedToTheThird = (arr) => {
 
   // Solution code here...
-  const localArry = [];
+  let array = [];
 
   arr.forEach((value) => {
-    localArry.push(Math.pow(value, 3));
+    array.push(Math.pow(value, 3));
   });
 
-  return localArry;
+  return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -27,11 +27,11 @@ Write a function named addOne that, given an array of numbers, uses map to retur
 ------------------------------------------------------------------------------------------------ */
 
 const addOne = (arr) => {
-  const newNumber = arr.map((num)=>{
-    return num + 1;
+  let numbers = arr.map((number)=>{
+    return number + 1;
   });
 
-  return newNumber;
+  return numbers;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -41,11 +41,11 @@ Write a function named addQuestion that, given an array of strings, uses map to 
 ------------------------------------------------------------------------------------------------ */
 
 const addQuestion = (arr) => {
-  const newQuestion = arr.map((qus)=>{
-    return qus + '?';
+  const question = arr.map((qustionMark)=>{
+    return qustionMark + '?';
   });
 
-  return newQuestion;
+  return question;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -59,12 +59,12 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 ------------------------------------------------------------------------------------------------ */
 
 const forLoopTwoToThe = (arr) => {
-  let towTimes = [];
+  let towTO = [];
   for (let index = 0; index < arr.length; index++) {
-    towTimes.push(Math.pow(2, arr[index]));
+    towTO.push(Math.pow(2, arr[index]));
 
   }
-  return towTimes;
+  return towTO;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -74,11 +74,11 @@ Write a function named forEachTwoToThe that produces the same output as your for
 ------------------------------------------------------------------------------------------------ */
 
 const forEachTwoToThe = (arr) => {
-  let towTimes = [];
-  arr.forEach((value) => {
-    towTimes.push(Math.pow(2, value));
+  let towTO = [];
+  arr.forEach((val) => {
+    towTO.push(Math.pow(2, val));
   });
-  return towTimes;
+  return towTO;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -88,11 +88,11 @@ Write a function named mapTwoToThe that produces the same output as your forLoop
 ------------------------------------------------------------------------------------------------ */
 
 const mapTwoToThe = (arr) => {
-  let twoTimes = arr.map((value)=>{
-    return Math.pow(2, value);
+  let towTO = arr.map((val)=>{
+    return Math.pow(2, val);
   });
 
-  return twoTimes;
+  return towTO;
 };
 
 /* ------------------------------------------------------------------------------------------------
