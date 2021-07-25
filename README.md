@@ -4,6 +4,18 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ## Repository Quick Tour and Usage
 
+### 401 Data Structures, Code Challenges
+
+## Table of Contents
+
+|Subject|Link|
+|---|---|
+|array-reverse| [Link Here](data-structures-and-algorithms-python(401)/array-reverse/README.md)|
+
+
+
+
+
 ### 301 Code Challenges
 
 Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
@@ -18,6 +30,3 @@ To run your tests
 - run `npm test` to run all of the tests
 - run `npm test ##` to only run tests for challenge ## (i.e. 01)
 
-### 401 Data Structures, Code Challenges
-
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
